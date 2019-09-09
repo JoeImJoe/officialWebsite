@@ -1,0 +1,43 @@
+@import "../../style/public.less";
+.header {
+    width: 100%;
+    height:  @headHeight;
+    background: #fff;
+    font-size: 18px;
+    // padding:0 24px;
+    .pub;
+}
+
+.left {
+    .pub;
+    padding-left: 24px;
+    width: 80%;
+    div{
+        span{
+            cursor: pointer
+        }
+    }
+}
+.right{
+    .pub;
+    justify-content: center;
+    padding-right: 24px;
+    width: 20%;
+    div{
+        padding:0 8px;
+        height: 32px;
+    }
+    
+}
+.pub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightFont{
+    cursor: pointer;
+    padding: 0 24px;
+}
+.borderLine{
+    border-right: 1px solid #d7d7d7
+}

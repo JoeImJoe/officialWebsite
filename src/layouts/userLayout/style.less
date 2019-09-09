@@ -1,0 +1,29 @@
+@gutter: 16px;
+
+.layout {
+    background-color: #f4f4f4;
+    // overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: @gutter;
+}
+
+.pub {
+    height: calc(100% - @gutter - @gutter);
+    background: #fff;
+}
+
+.leftMenu {
+    margin-right: @gutter;
+    width: 20%;
+    .pub;
+}
+
+.rightArea {
+    width: 75%;
+    .pub;
+
+}
