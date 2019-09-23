@@ -1,0 +1,81 @@
+.title {
+    font-size    : 30px;
+    color        : #000;
+    text-align   : center;
+    padding-top  : 16px;
+    margin-bottom: 32px;
+
+    &>span {
+        margin-left: 8px;
+    }
+
+    &.activeOne {
+        &>span:first-child {
+            color: #F2543A;
+        }
+    }
+
+    &.activeTwo {
+        &>span:last-child {
+            color: #F2543A;
+        }
+    }
+}
+
+.loginFooter {
+    margin-top: 32px;
+    background: url('../../assets/u1441.png') no-repeat;
+    height    : 34px;
+    position  : relative;
+
+    &>span {
+        height  : 34px;
+        width   : 34px;
+        display : inline-block;
+        cursor  : pointer;
+        position: absolute;
+        left    : 45%;
+        top     : 0;
+        opacity : 0;
+
+        &:last-child {
+            left: 55%;
+        }
+    }
+
+}
+
+.yzmBox {
+    background : #ccc;
+    margin-left: 8px;
+    height     : 34px;
+    line-height: 34px;
+
+    a {
+        color: #333;
+
+        &:active {
+            color: #ddd;
+
+        }
+    }
+
+}
+
+
+
+.greyColor {
+    color: #ddd;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.cursor {
+    cursor: pointer;
+}

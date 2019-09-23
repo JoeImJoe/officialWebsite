@@ -60,7 +60,7 @@ const myCase = memo(({ ...props }) => {
         <div className={styles.caseBody}>
             <SearchCom
                 searchlist={[
-                    { id: 'keyword', title: '产品名称', tip: '输入关键字' },
+                    { id: 'keyword', title: '关键词', tip: '输入查询关键字' },
                 ]}
                 handleSearch={() => { }} />
             <DateCom dateCode={'time'} handleSearch={() => { }} />

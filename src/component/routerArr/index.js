@@ -12,7 +12,7 @@ const route = [
     },
     {
         path: "", breadcrumb: "个人库", key: "geren", children: [
-            { path: '/user/collection', breadcrumb: '收藏夹', key: "collection", },
+            { path: '/collection', breadcrumb: '收藏夹', key: "collection", },
             {
                 path: '/myUpload', breadcrumb: '个人上传', key: "/myUpload",//完成
                 children: [{ path: '/myUpload/form', breadcrumb: '测试表单页', key: "/myUpload/form", }]
@@ -21,13 +21,13 @@ const route = [
     },
     {
         path: "", breadcrumb: "交易管理", key: "deal", children: [
-            { path: '/user/customer', breadcrumb: '客户管理', key: "customer", },
-            { path: '/user/order', breadcrumb: '订单管理', key: "/user/order", },
+            { path: '/customer', breadcrumb: '客户管理', key: "customer", },
+            { path: '/order', breadcrumb: '订单管理', key: "/user/order", },
         ], 
     },
     {
         path: "", breadcrumb: "账户管理", key: "account", children: [
-            { path: '/user/accountSet', breadcrumb: '客户管理', key: "accountSet", },
+            { path: '/user/accountSet', breadcrumb: '账户设置', key: "accountSet", },
         ], 
     },
     {

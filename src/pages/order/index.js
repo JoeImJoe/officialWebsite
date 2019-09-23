@@ -58,12 +58,11 @@ const myCase = memo(({ ...props }) => {
     <div className={styles.caseBody}>
       <SearchCom
         searchlist={[
-          { id: 'keyword', title: '方案名', tip: '输入关键字' },
-          { id: 'cname', title: '客户姓名', tip: '输入客户姓名' }
+          { id: 'keyword', title: '关键字', tip: '输入客户姓名/手机号' }
         ]}
         handleSearch={() => { }} />
       <DateCom dateCode={'time'} handleSearch={() => { }} />
-      <CardCom noDe datasource={datasource} setDatasource={setDatasource}/>
+      {/* <CardCom noDe datasource={datasource} setDatasource={setDatasource}/> */}
     </div>
   )
 })

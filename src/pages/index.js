@@ -12,7 +12,8 @@ const indexpage = memo(({ ...props }) => {
   }, [])
   return (
     <div>
-      <Carousel autoplay={true} className={styles.allwh} dotPosition={"right"}>
+      <Carousel autoplay={true}
+        className={styles.allwh} dotPosition={"right"}>
         <div>
           <img className={styles.allwh} src={pic1}></img>
         </div>
